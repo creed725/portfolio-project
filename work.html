@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Ciara is a front-end developer that builds websites and applications to create great user experiences."
+    />
+    <title>Project Showcase - Ciara Reed</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,25 +32,56 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">Ciara Reed</a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Ciara">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Ciara's Projects">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Ciara">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5 text-center">Project Showcase</h1>
 
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img src="images/recipe.png" class="img-fluid mb-3 rounded" alt="" />
+            <img
+              src="images/recipe.png"
+              class="img-fluid mb-3 rounded"
+              alt="Chicken Tacos Project Preview"
+            />
             <h3 class="text-center m-0">Chicken Tacos Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/weatherapp.png" class="img-fluid mb-3 rounded" alt="" />
+            <img
+              src="images/weatherapp.png"
+              class="img-fluid mb-3 rounded"
+              alt="Weather App Project Preview"
+            />
             <h3 class="text-center m-0">Weather App Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="" />
+            <img
+              src="images/dictionary.png"
+              class="img-fluid mb-3 rounded"
+              alt="Dictionary Project Preview"
+            />
             <h3 class="text-center m-0">Dictionary Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS with React
@@ -55,5 +90,54 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Ciara"
+          >
+            Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:csreed2010@gmail.com"
+          class="email-link"
+          title="Email Ciara"
+          >csreed2010@gmail.com
+        </a>
+      </div>
+      <div class="social-link d-flex justify-content-center">
+        <a
+          href="https://github.com/creed725/portfolio-project"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a
+          href="https://twitter.com/ciaracodes_"
+          target="_blank"
+          title="Twitter"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Ciara, and it is
+        <a href="https://github.com/creed725/portfolio-project" target="_blank"
+          >open-sourced.</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
